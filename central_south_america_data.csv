@@ -1,4 +1,4 @@
-country,year,sex,age,suicides_no,population,suicides/100k pop,country-year, gdp_for_year,gdp_per_capita,generation
+country,year,sex,age,suicides_no,population,suicides_per_100k pop,country-year, gdp_for_year,gdp_per_capita,generation
 Argentina,1985,male,75+ years,202,363000,55.65,Argentina1985,"88,416,668,900",3264,G.I. Generation
 Argentina,1985,male,55-74 years,485,1997000,24.29,Argentina1985,"88,416,668,900",3264,G.I. Generation
 Argentina,1985,male,35-54 years,414,3346300,12.37,Argentina1985,"88,416,668,900",3264,Silent
