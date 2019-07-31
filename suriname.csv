@@ -1,0 +1,336 @@
+﻿country,year,sex,age,suicides_no,population,suicides/100k pop,country-year, gdp_for_year ($) ,gdp_per_capita ($),generation
+Suriname,1985,male,35-54 years,20,20500,97.56,Suriname1985,"873,250,000",2706,Silent
+Suriname,1985,male,75+ years,2,2200,90.91,Suriname1985,"873,250,000",2706,G.I. Generation
+Suriname,1985,male,25-34 years,11,16100,68.32,Suriname1985,"873,250,000",2706,Boomers
+Suriname,1985,male,55-74 years,6,11700,51.28,Suriname1985,"873,250,000",2706,G.I. Generation
+Suriname,1985,female,75+ years,2,4200,47.62,Suriname1985,"873,250,000",2706,G.I. Generation
+Suriname,1985,female,55-74 years,5,15000,33.33,Suriname1985,"873,250,000",2706,G.I. Generation
+Suriname,1985,male,15-24 years,17,53700,31.66,Suriname1985,"873,250,000",2706,Generation X
+Suriname,1985,female,35-54 years,7,22600,30.97,Suriname1985,"873,250,000",2706,Silent
+Suriname,1985,female,15-24 years,7,51400,13.62,Suriname1985,"873,250,000",2706,Generation X
+Suriname,1985,male,5-14 years,2,54600,3.66,Suriname1985,"873,250,000",2706,Generation X
+Suriname,1985,female,5-14 years,1,52400,1.91,Suriname1985,"873,250,000",2706,Generation X
+Suriname,1985,female,25-34 years,0,18300,0,Suriname1985,"873,250,000",2706,Boomers
+Suriname,1986,male,75+ years,2,2867,69.76,Suriname1986,"891,000,000",2731,G.I. Generation
+Suriname,1986,male,15-24 years,13,43404,29.95,Suriname1986,"891,000,000",2731,Generation X
+Suriname,1986,female,75+ years,1,3737,26.76,Suriname1986,"891,000,000",2731,G.I. Generation
+Suriname,1986,male,35-54 years,7,32808,21.34,Suriname1986,"891,000,000",2731,Silent
+Suriname,1986,male,25-34 years,6,29250,20.51,Suriname1986,"891,000,000",2731,Boomers
+Suriname,1986,female,15-24 years,6,40116,14.96,Suriname1986,"891,000,000",2731,Generation X
+Suriname,1986,male,55-74 years,2,15344,13.03,Suriname1986,"891,000,000",2731,G.I. Generation
+Suriname,1986,female,25-34 years,2,28111,7.11,Suriname1986,"891,000,000",2731,Boomers
+Suriname,1986,female,35-54 years,2,33022,6.06,Suriname1986,"891,000,000",2731,Silent
+Suriname,1986,female,5-14 years,1,39865,2.51,Suriname1986,"891,000,000",2731,Generation X
+Suriname,1986,female,55-74 years,0,15921,0,Suriname1986,"891,000,000",2731,G.I. Generation
+Suriname,1986,male,5-14 years,0,41849,0,Suriname1986,"891,000,000",2731,Generation X
+Suriname,1987,male,75+ years,2,2919,68.52,Suriname1987,"979,850,000",2951,G.I. Generation
+Suriname,1987,male,25-34 years,13,30977,41.97,Suriname1987,"979,850,000",2951,Boomers
+Suriname,1987,male,35-54 years,12,33400,35.93,Suriname1987,"979,850,000",2951,Silent
+Suriname,1987,male,55-74 years,5,15788,31.67,Suriname1987,"979,850,000",2951,G.I. Generation
+Suriname,1987,female,75+ years,1,3776,26.48,Suriname1987,"979,850,000",2951,G.I. Generation
+Suriname,1987,female,15-24 years,8,40204,19.9,Suriname1987,"979,850,000",2951,Generation X
+Suriname,1987,male,15-24 years,8,43517,18.38,Suriname1987,"979,850,000",2951,Generation X
+Suriname,1987,female,25-34 years,1,29656,3.37,Suriname1987,"979,850,000",2951,Boomers
+Suriname,1987,female,35-54 years,1,33647,2.97,Suriname1987,"979,850,000",2951,Silent
+Suriname,1987,female,5-14 years,1,39799,2.51,Suriname1987,"979,850,000",2951,Generation X
+Suriname,1987,female,55-74 years,0,16552,0,Suriname1987,"979,850,000",2951,G.I. Generation
+Suriname,1987,male,5-14 years,0,41778,0,Suriname1987,"979,850,000",2951,Generation X
+Suriname,1988,male,25-34 years,12,32853,36.53,Suriname1988,"1,160,900,000",3418,Boomers
+Suriname,1988,male,75+ years,1,2960,33.78,Suriname1988,"1,160,900,000",3418,G.I. Generation
+Suriname,1988,female,75+ years,1,3816,26.21,Suriname1988,"1,160,900,000",3418,G.I. Generation
+Suriname,1988,female,15-24 years,10,40327,24.8,Suriname1988,"1,160,900,000",3418,Generation X
+Suriname,1988,female,55-74 years,4,17297,23.13,Suriname1988,"1,160,900,000",3418,G.I. Generation
+Suriname,1988,male,15-24 years,9,43613,20.64,Suriname1988,"1,160,900,000",3418,Generation X
+Suriname,1988,male,35-54 years,7,34213,20.46,Suriname1988,"1,160,900,000",3418,Silent
+Suriname,1988,male,55-74 years,3,16330,18.37,Suriname1988,"1,160,900,000",3418,G.I. Generation
+Suriname,1988,female,35-54 years,2,34480,5.8,Suriname1988,"1,160,900,000",3418,Silent
+Suriname,1988,female,25-34 years,0,31329,0,Suriname1988,"1,160,900,000",3418,Boomers
+Suriname,1988,female,5-14 years,0,40174,0,Suriname1988,"1,160,900,000",3418,Generation X
+Suriname,1988,male,5-14 years,0,42219,0,Suriname1988,"1,160,900,000",3418,Generation X
+Suriname,1989,male,35-54 years,17,35135,48.38,Suriname1989,"542,520,000",1560,Silent
+Suriname,1989,male,75+ years,1,2964,33.74,Suriname1989,"542,520,000",1560,G.I. Generation
+Suriname,1989,male,25-34 years,11,34649,31.75,Suriname1989,"542,520,000",1560,Boomers
+Suriname,1989,female,75+ years,1,3844,26.01,Suriname1989,"542,520,000",1560,G.I. Generation
+Suriname,1989,male,15-24 years,11,43552,25.26,Suriname1989,"542,520,000",1560,Generation X
+Suriname,1989,female,55-74 years,4,18079,22.13,Suriname1989,"542,520,000",1560,G.I. Generation
+Suriname,1989,female,35-54 years,3,35415,8.47,Suriname1989,"542,520,000",1560,Silent
+Suriname,1989,female,15-24 years,3,40352,7.43,Suriname1989,"542,520,000",1560,Generation X
+Suriname,1989,male,55-74 years,1,16912,5.91,Suriname1989,"542,520,000",1560,G.I. Generation
+Suriname,1989,female,25-34 years,1,32892,3.04,Suriname1989,"542,520,000",1560,Boomers
+Suriname,1989,female,5-14 years,0,40886,0,Suriname1989,"542,520,000",1560,Generation X
+Suriname,1989,male,5-14 years,0,43043,0,Suriname1989,"542,520,000",1560,Generation X
+Suriname,1990,male,75+ years,3,2000,150,Suriname1990,"388,300,000",1114,G.I. Generation
+Suriname,1990,male,25-34 years,8,34000,23.53,Suriname1990,"388,300,000",1114,Boomers
+Suriname,1990,male,15-24 years,7,47000,14.89,Suriname1990,"388,300,000",1114,Generation X
+Suriname,1990,male,35-54 years,2,28000,7.14,Suriname1990,"388,300,000",1114,Silent
+Suriname,1990,male,55-74 years,1,16000,6.25,Suriname1990,"388,300,000",1114,G.I. Generation
+Suriname,1990,female,25-34 years,2,35000,5.71,Suriname1990,"388,300,000",1114,Boomers
+Suriname,1990,female,15-24 years,2,46000,4.35,Suriname1990,"388,300,000",1114,Generation X
+Suriname,1990,male,5-14 years,1,45000,2.22,Suriname1990,"388,300,000",1114,Generation X
+Suriname,1990,female,35-54 years,0,32000,0,Suriname1990,"388,300,000",1114,Silent
+Suriname,1990,female,5-14 years,0,43500,0,Suriname1990,"388,300,000",1114,Generation X
+Suriname,1990,female,55-74 years,0,17000,0,Suriname1990,"388,300,000",1114,G.I. Generation
+Suriname,1990,female,75+ years,0,3200,0,Suriname1990,"388,300,000",1114,G.I. Generation
+Suriname,1991,male,25-34 years,15,37620,39.87,Suriname1991,"448,300,000",1235,Boomers
+Suriname,1991,male,35-54 years,13,37217,34.93,Suriname1991,"448,300,000",1235,Boomers
+Suriname,1991,male,75+ years,1,2979,33.57,Suriname1991,"448,300,000",1235,G.I. Generation
+Suriname,1991,female,75+ years,1,3932,25.43,Suriname1991,"448,300,000",1235,G.I. Generation
+Suriname,1991,female,15-24 years,9,40020,22.49,Suriname1991,"448,300,000",1235,Generation X
+Suriname,1991,female,55-74 years,4,19527,20.48,Suriname1991,"448,300,000",1235,Silent
+Suriname,1991,female,25-34 years,5,35339,14.15,Suriname1991,"448,300,000",1235,Boomers
+Suriname,1991,male,15-24 years,5,42924,11.65,Suriname1991,"448,300,000",1235,Generation X
+Suriname,1991,male,55-74 years,1,18019,5.55,Suriname1991,"448,300,000",1235,Silent
+Suriname,1991,female,5-14 years,2,42788,4.67,Suriname1991,"448,300,000",1235,Millenials
+Suriname,1991,female,35-54 years,1,37467,2.67,Suriname1991,"448,300,000",1235,Boomers
+Suriname,1991,male,5-14 years,0,45247,0,Suriname1991,"448,300,000",1235,Millenials
+Suriname,1992,male,25-34 years,11,38778,28.37,Suriname1992,"404,600,000",1093,Boomers
+Suriname,1992,male,55-74 years,5,18529,26.98,Suriname1992,"404,600,000",1093,Silent
+Suriname,1992,male,35-54 years,10,38358,26.07,Suriname1992,"404,600,000",1093,Boomers
+Suriname,1992,male,15-24 years,9,42389,21.23,Suriname1992,"404,600,000",1093,Generation X
+Suriname,1992,female,15-24 years,6,39704,15.11,Suriname1992,"404,600,000",1093,Generation X
+Suriname,1992,female,25-34 years,2,36206,5.52,Suriname1992,"404,600,000",1093,Boomers
+Suriname,1992,female,35-54 years,2,38576,5.18,Suriname1992,"404,600,000",1093,Boomers
+Suriname,1992,female,55-74 years,1,20189,4.95,Suriname1992,"404,600,000",1093,Silent
+Suriname,1992,female,5-14 years,2,43929,4.55,Suriname1992,"404,600,000",1093,Millenials
+Suriname,1992,female,75+ years,0,3987,0,Suriname1992,"404,600,000",1093,G.I. Generation
+Suriname,1992,male,5-14 years,0,46555,0,Suriname1992,"404,600,000",1093,Millenials
+Suriname,1992,male,75+ years,0,2994,0,Suriname1992,"404,600,000",1093,G.I. Generation
+Suriname,1995,male,25-34 years,14,40792,34.32,Suriname1995,"693,970,588",1782,Generation X
+Suriname,1995,male,75+ years,1,2953,33.86,Suriname1995,"693,970,588",1782,G.I. Generation
+Suriname,1995,male,15-24 years,12,40901,29.34,Suriname1995,"693,970,588",1782,Generation X
+Suriname,1995,male,35-54 years,10,42573,23.49,Suriname1995,"693,970,588",1782,Boomers
+Suriname,1995,male,55-74 years,4,19931,20.07,Suriname1995,"693,970,588",1782,Silent
+Suriname,1995,female,55-74 years,3,22077,13.59,Suriname1995,"693,970,588",1782,Silent
+Suriname,1995,female,15-24 years,5,38880,12.86,Suriname1995,"693,970,588",1782,Generation X
+Suriname,1995,female,25-34 years,4,37603,10.64,Suriname1995,"693,970,588",1782,Generation X
+Suriname,1995,female,35-54 years,1,42582,2.35,Suriname1995,"693,970,588",1782,Boomers
+Suriname,1995,male,5-14 years,1,49923,2,Suriname1995,"693,970,588",1782,Millenials
+Suriname,1995,female,5-14 years,0,47069,0,Suriname1995,"693,970,588",1782,Millenials
+Suriname,1995,female,75+ years,0,4130,0,Suriname1995,"693,970,588",1782,G.I. Generation
+Suriname,1996,male,75+ years,1,3080,32.47,Suriname1996,"860,630,923",2174,G.I. Generation
+Suriname,1996,male,25-34 years,6,41058,14.61,Suriname1996,"860,630,923",2174,Generation X
+Suriname,1996,male,35-54 years,6,44241,13.56,Suriname1996,"860,630,923",2174,Boomers
+Suriname,1996,male,15-24 years,3,40974,7.32,Suriname1996,"860,630,923",2174,Generation X
+Suriname,1996,male,55-74 years,1,20314,4.92,Suriname1996,"860,630,923",2174,Silent
+Suriname,1996,female,55-74 years,1,22310,4.48,Suriname1996,"860,630,923",2174,Silent
+Suriname,1996,female,15-24 years,1,39181,2.55,Suriname1996,"860,630,923",2174,Generation X
+Suriname,1996,female,35-54 years,1,44201,2.26,Suriname1996,"860,630,923",2174,Boomers
+Suriname,1996,female,5-14 years,1,47703,2.1,Suriname1996,"860,630,923",2174,Millenials
+Suriname,1996,female,25-34 years,0,38017,0,Suriname1996,"860,630,923",2174,Generation X
+Suriname,1996,female,75+ years,0,4289,0,Suriname1996,"860,630,923",2174,G.I. Generation
+Suriname,1996,male,5-14 years,0,50437,0,Suriname1996,"860,630,923",2174,Millenials
+Suriname,1997,male,75+ years,1,3211,31.14,Suriname1997,"929,607,500",2314,G.I. Generation
+Suriname,1997,male,55-74 years,4,20606,19.41,Suriname1997,"929,607,500",2314,Silent
+Suriname,1997,male,15-24 years,5,41081,12.17,Suriname1997,"929,607,500",2314,Generation X
+Suriname,1997,male,25-34 years,5,41122,12.16,Suriname1997,"929,607,500",2314,Generation X
+Suriname,1997,male,35-54 years,5,46141,10.84,Suriname1997,"929,607,500",2314,Boomers
+Suriname,1997,female,25-34 years,3,38337,7.83,Suriname1997,"929,607,500",2314,Generation X
+Suriname,1997,female,35-54 years,3,46033,6.52,Suriname1997,"929,607,500",2314,Boomers
+Suriname,1997,female,15-24 years,2,39505,5.06,Suriname1997,"929,607,500",2314,Generation X
+Suriname,1997,female,55-74 years,1,22554,4.43,Suriname1997,"929,607,500",2314,Silent
+Suriname,1997,female,5-14 years,2,48099,4.16,Suriname1997,"929,607,500",2314,Millenials
+Suriname,1997,male,5-14 years,1,50699,1.97,Suriname1997,"929,607,500",2314,Millenials
+Suriname,1997,female,75+ years,0,4426,0,Suriname1997,"929,607,500",2314,G.I. Generation
+Suriname,1998,male,75+ years,1,3340,29.94,Suriname1998,"945,000,000",2318,G.I. Generation
+Suriname,1998,male,25-34 years,7,41049,17.05,Suriname1998,"945,000,000",2318,Generation X
+Suriname,1998,male,35-54 years,8,48239,16.58,Suriname1998,"945,000,000",2318,Boomers
+Suriname,1998,male,55-74 years,3,20823,14.41,Suriname1998,"945,000,000",2318,Silent
+Suriname,1998,female,25-34 years,4,38571,10.37,Suriname1998,"945,000,000",2318,Generation X
+Suriname,1998,female,35-54 years,3,48040,6.24,Suriname1998,"945,000,000",2318,Boomers
+Suriname,1998,male,15-24 years,2,41216,4.85,Suriname1998,"945,000,000",2318,Generation X
+Suriname,1998,female,15-24 years,1,39847,2.51,Suriname1998,"945,000,000",2318,Generation X
+Suriname,1998,female,5-14 years,0,48317,0,Suriname1998,"945,000,000",2318,Millenials
+Suriname,1998,female,55-74 years,0,22817,0,Suriname1998,"945,000,000",2318,Silent
+Suriname,1998,female,75+ years,0,4529,0,Suriname1998,"945,000,000",2318,G.I. Generation
+Suriname,1998,male,5-14 years,0,50818,0,Suriname1998,"945,000,000",2318,Millenials
+Suriname,1999,male,75+ years,3,3466,86.56,Suriname1999,"885,444,186",2142,G.I. Generation
+Suriname,1999,male,55-74 years,9,21006,42.84,Suriname1999,"885,444,186",2142,Silent
+Suriname,1999,male,25-34 years,9,40913,22,Suriname1999,"885,444,186",2142,Generation X
+Suriname,1999,female,15-24 years,8,40243,19.88,Suriname1999,"885,444,186",2142,Generation X
+Suriname,1999,male,35-54 years,8,50399,15.87,Suriname1999,"885,444,186",2142,Boomers
+Suriname,1999,male,15-24 years,5,41424,12.07,Suriname1999,"885,444,186",2142,Generation X
+Suriname,1999,female,35-54 years,4,50067,7.99,Suriname1999,"885,444,186",2142,Boomers
+Suriname,1999,female,25-34 years,2,38746,5.16,Suriname1999,"885,444,186",2142,Generation X
+Suriname,1999,female,55-74 years,1,23115,4.33,Suriname1999,"885,444,186",2142,Silent
+Suriname,1999,female,5-14 years,0,48443,0,Suriname1999,"885,444,186",2142,Millenials
+Suriname,1999,female,75+ years,0,4596,0,Suriname1999,"885,444,186",2142,G.I. Generation
+Suriname,1999,male,5-14 years,0,50885,0,Suriname1999,"885,444,186",2142,Millenials
+Suriname,2000,male,35-54 years,15,52484,28.58,Suriname2000,"892,164,394",2129,Boomers
+Suriname,2000,male,25-34 years,11,40787,26.97,Suriname2000,"892,164,394",2129,Generation X
+Suriname,2000,male,15-24 years,9,41743,21.56,Suriname2000,"892,164,394",2129,Generation X
+Suriname,2000,female,25-34 years,6,38906,15.42,Suriname2000,"892,164,394",2129,Generation X
+Suriname,2000,female,55-74 years,3,23464,12.79,Suriname2000,"892,164,394",2129,Silent
+Suriname,2000,male,55-74 years,2,21208,9.43,Suriname2000,"892,164,394",2129,Silent
+Suriname,2000,female,15-24 years,3,40714,7.37,Suriname2000,"892,164,394",2129,Generation X
+Suriname,2000,female,35-54 years,2,51969,3.85,Suriname2000,"892,164,394",2129,Boomers
+Suriname,2000,male,5-14 years,1,50922,1.96,Suriname2000,"892,164,394",2129,Millenials
+Suriname,2000,female,5-14 years,0,48558,0,Suriname2000,"892,164,394",2129,Millenials
+Suriname,2000,female,75+ years,0,4642,0,Suriname2000,"892,164,394",2129,G.I. Generation
+Suriname,2000,male,75+ years,0,3604,0,Suriname2000,"892,164,394",2129,G.I. Generation
+Suriname,2001,male,25-34 years,21,40500,51.85,Suriname2001,"763,465,550",1798,Generation X
+Suriname,2001,male,55-74 years,10,21351,46.84,Suriname2001,"763,465,550",1798,Silent
+Suriname,2001,male,35-54 years,16,54230,29.5,Suriname2001,"763,465,550",1798,Boomers
+Suriname,2001,male,75+ years,1,3809,26.25,Suriname2001,"763,465,550",1798,Silent
+Suriname,2001,female,55-74 years,5,23944,20.88,Suriname2001,"763,465,550",1798,Silent
+Suriname,2001,male,15-24 years,6,42153,14.23,Suriname2001,"763,465,550",1798,Millenials
+Suriname,2001,female,25-34 years,5,38844,12.87,Suriname2001,"763,465,550",1798,Generation X
+Suriname,2001,female,35-54 years,5,53591,9.33,Suriname2001,"763,465,550",1798,Boomers
+Suriname,2001,male,5-14 years,2,51208,3.91,Suriname2001,"763,465,550",1798,Millenials
+Suriname,2001,female,15-24 years,1,41145,2.43,Suriname2001,"763,465,550",1798,Millenials
+Suriname,2001,female,5-14 years,0,48886,0,Suriname2001,"763,465,550",1798,Millenials
+Suriname,2001,female,75+ years,0,4854,0,Suriname2001,"763,465,550",1798,Silent
+Suriname,2002,male,25-34 years,15,40239,37.28,Suriname2002,"1,078,402,128",2507,Generation X
+Suriname,2002,male,55-74 years,6,21592,27.79,Suriname2002,"1,078,402,128",2507,Silent
+Suriname,2002,male,35-54 years,15,55834,26.87,Suriname2002,"1,078,402,128",2507,Boomers
+Suriname,2002,male,75+ years,1,3996,25.03,Suriname2002,"1,078,402,128",2507,Silent
+Suriname,2002,male,15-24 years,10,42809,23.36,Suriname2002,"1,078,402,128",2507,Millenials
+Suriname,2002,female,75+ years,1,5067,19.74,Suriname2002,"1,078,402,128",2507,Silent
+Suriname,2002,female,55-74 years,4,24443,16.36,Suriname2002,"1,078,402,128",2507,Silent
+Suriname,2002,female,25-34 years,5,38769,12.9,Suriname2002,"1,078,402,128",2507,Generation X
+Suriname,2002,female,15-24 years,4,41713,9.59,Suriname2002,"1,078,402,128",2507,Millenials
+Suriname,2002,female,35-54 years,4,54990,7.27,Suriname2002,"1,078,402,128",2507,Boomers
+Suriname,2002,female,5-14 years,3,49195,6.1,Suriname2002,"1,078,402,128",2507,Millenials
+Suriname,2002,male,5-14 years,1,51529,1.94,Suriname2002,"1,078,402,128",2507,Millenials
+Suriname,2003,male,55-74 years,12,21925,54.73,Suriname2003,"1,271,196,078",2916,Silent
+Suriname,2003,male,25-34 years,20,39999,50,Suriname2003,"1,271,196,078",2916,Generation X
+Suriname,2003,male,75+ years,2,4153,48.16,Suriname2003,"1,271,196,078",2916,Silent
+Suriname,2003,male,35-54 years,15,57340,26.16,Suriname2003,"1,271,196,078",2916,Boomers
+Suriname,2003,male,15-24 years,7,43597,16.06,Suriname2003,"1,271,196,078",2916,Millenials
+Suriname,2003,female,25-34 years,6,38701,15.5,Suriname2003,"1,271,196,078",2916,Generation X
+Suriname,2003,female,35-54 years,7,56259,12.44,Suriname2003,"1,271,196,078",2916,Boomers
+Suriname,2003,female,55-74 years,3,24989,12.01,Suriname2003,"1,271,196,078",2916,Silent
+Suriname,2003,female,15-24 years,3,42340,7.09,Suriname2003,"1,271,196,078",2916,Millenials
+Suriname,2003,male,5-14 years,2,51886,3.85,Suriname2003,"1,271,196,078",2916,Millenials
+Suriname,2003,female,5-14 years,0,49482,0,Suriname2003,"1,271,196,078",2916,Millenials
+Suriname,2003,female,75+ years,0,5275,0,Suriname2003,"1,271,196,078",2916,Silent
+Suriname,2004,male,55-74 years,10,22321,44.8,Suriname2004,"1,484,092,538",3360,Silent
+Suriname,2004,male,35-54 years,23,58839,39.09,Suriname2004,"1,484,092,538",3360,Boomers
+Suriname,2004,male,75+ years,1,4276,23.39,Suriname2004,"1,484,092,538",3360,Silent
+Suriname,2004,male,25-34 years,8,39773,20.11,Suriname2004,"1,484,092,538",3360,Generation X
+Suriname,2004,female,75+ years,1,5466,18.29,Suriname2004,"1,484,092,538",3360,Silent
+Suriname,2004,female,15-24 years,6,42934,13.97,Suriname2004,"1,484,092,538",3360,Millenials
+Suriname,2004,male,15-24 years,6,44369,13.52,Suriname2004,"1,484,092,538",3360,Millenials
+Suriname,2004,female,55-74 years,3,25602,11.72,Suriname2004,"1,484,092,538",3360,Silent
+Suriname,2004,female,35-54 years,5,57544,8.69,Suriname2004,"1,484,092,538",3360,Boomers
+Suriname,2004,female,5-14 years,2,49715,4.02,Suriname2004,"1,484,092,538",3360,Millenials
+Suriname,2004,female,25-34 years,1,38640,2.59,Suriname2004,"1,484,092,538",3360,Generation X
+Suriname,2004,male,5-14 years,1,52238,1.91,Suriname2004,"1,484,092,538",3360,Millenials
+Suriname,2005,male,25-34 years,18,39566,45.49,Suriname2005,"1,793,754,805",4009,Generation X
+Suriname,2005,male,55-74 years,8,22765,35.14,Suriname2005,"1,793,754,805",4009,Silent
+Suriname,2005,male,35-54 years,19,60391,31.46,Suriname2005,"1,793,754,805",4009,Boomers
+Suriname,2005,male,15-24 years,12,45060,26.63,Suriname2005,"1,793,754,805",4009,Millenials
+Suriname,2005,male,75+ years,1,4357,22.95,Suriname2005,"1,793,754,805",4009,Silent
+Suriname,2005,female,75+ years,1,5644,17.72,Suriname2005,"1,793,754,805",4009,Silent
+Suriname,2005,female,25-34 years,4,38594,10.36,Suriname2005,"1,793,754,805",4009,Generation X
+Suriname,2005,female,55-74 years,2,26296,7.61,Suriname2005,"1,793,754,805",4009,Silent
+Suriname,2005,female,15-24 years,2,43456,4.6,Suriname2005,"1,793,754,805",4009,Millenials
+Suriname,2005,male,5-14 years,2,52526,3.81,Suriname2005,"1,793,754,805",4009,Millenials
+Suriname,2005,female,35-54 years,2,58932,3.39,Suriname2005,"1,793,754,805",4009,Boomers
+Suriname,2005,female,5-14 years,1,49858,2.01,Suriname2005,"1,793,754,805",4009,Millenials
+Suriname,2006,male,35-54 years,37,62088,59.59,Suriname2006,"2,626,380,435",5794,Boomers
+Suriname,2006,male,75+ years,2,4557,43.89,Suriname2006,"2,626,380,435",5794,Silent
+Suriname,2006,male,55-74 years,10,23150,43.2,Suriname2006,"2,626,380,435",5794,Silent
+Suriname,2006,male,15-24 years,19,45741,41.54,Suriname2006,"2,626,380,435",5794,Millenials
+Suriname,2006,male,25-34 years,16,39396,40.61,Suriname2006,"2,626,380,435",5794,Generation X
+Suriname,2006,female,15-24 years,11,43971,25.02,Suriname2006,"2,626,380,435",5794,Millenials
+Suriname,2006,female,55-74 years,5,26903,18.59,Suriname2006,"2,626,380,435",5794,Silent
+Suriname,2006,female,25-34 years,6,38578,15.55,Suriname2006,"2,626,380,435",5794,Generation X
+Suriname,2006,female,35-54 years,5,60541,8.26,Suriname2006,"2,626,380,435",5794,Boomers
+Suriname,2006,female,5-14 years,1,49822,2.01,Suriname2006,"2,626,380,435",5794,Millenials
+Suriname,2006,female,75+ years,0,5886,0,Suriname2006,"2,626,380,435",5794,Silent
+Suriname,2006,male,5-14 years,0,52660,0,Suriname2006,"2,626,380,435",5794,Millenials
+Suriname,2007,male,75+ years,3,4718,63.59,Suriname2007,"2,936,612,022",6397,Silent
+Suriname,2007,male,25-34 years,24,39222,61.19,Suriname2007,"2,936,612,022",6397,Generation X
+Suriname,2007,male,35-54 years,35,63837,54.83,Suriname2007,"2,936,612,022",6397,Boomers
+Suriname,2007,male,55-74 years,10,23599,42.37,Suriname2007,"2,936,612,022",6397,Silent
+Suriname,2007,female,75+ years,2,6107,32.75,Suriname2007,"2,936,612,022",6397,Silent
+Suriname,2007,male,15-24 years,12,46375,25.88,Suriname2007,"2,936,612,022",6397,Millenials
+Suriname,2007,female,15-24 years,10,44452,22.5,Suriname2007,"2,936,612,022",6397,Millenials
+Suriname,2007,female,25-34 years,6,38545,15.57,Suriname2007,"2,936,612,022",6397,Generation X
+Suriname,2007,female,55-74 years,4,27614,14.49,Suriname2007,"2,936,612,022",6397,Silent
+Suriname,2007,female,35-54 years,7,62270,11.24,Suriname2007,"2,936,612,022",6397,Boomers
+Suriname,2007,female,5-14 years,3,49661,6.04,Suriname2007,"2,936,612,022",6397,Generation Z
+Suriname,2007,male,5-14 years,3,52686,5.69,Suriname2007,"2,936,612,022",6397,Generation Z
+Suriname,2008,male,75+ years,4,4841,82.63,Suriname2008,"3,532,969,035",7601,Silent
+Suriname,2008,male,35-54 years,47,65553,71.7,Suriname2008,"3,532,969,035",7601,Boomers
+Suriname,2008,male,55-74 years,15,24124,62.18,Suriname2008,"3,532,969,035",7601,Silent
+Suriname,2008,male,25-34 years,23,39105,58.82,Suriname2008,"3,532,969,035",7601,Generation X
+Suriname,2008,male,15-24 years,21,46969,44.71,Suriname2008,"3,532,969,035",7601,Millenials
+Suriname,2008,female,15-24 years,14,44916,31.17,Suriname2008,"3,532,969,035",7601,Millenials
+Suriname,2008,female,55-74 years,5,28396,17.61,Suriname2008,"3,532,969,035",7601,Silent
+Suriname,2008,female,75+ years,1,6315,15.84,Suriname2008,"3,532,969,035",7601,Silent
+Suriname,2008,female,35-54 years,9,64026,14.06,Suriname2008,"3,532,969,035",7601,Boomers
+Suriname,2008,female,25-34 years,4,38543,10.38,Suriname2008,"3,532,969,035",7601,Generation X
+Suriname,2008,male,5-14 years,3,52600,5.7,Suriname2008,"3,532,969,035",7601,Generation Z
+Suriname,2008,female,5-14 years,1,49401,2.02,Suriname2008,"3,532,969,035",7601,Generation Z
+Suriname,2009,male,75+ years,4,4932,81.1,Suriname2009,"3,875,409,836",8238,Silent
+Suriname,2009,male,35-54 years,46,67116,68.54,Suriname2009,"3,875,409,836",8238,Boomers
+Suriname,2009,male,55-74 years,12,24763,48.46,Suriname2009,"3,875,409,836",8238,Silent
+Suriname,2009,male,25-34 years,18,39139,45.99,Suriname2009,"3,875,409,836",8238,Generation X
+Suriname,2009,male,15-24 years,18,47548,37.86,Suriname2009,"3,875,409,836",8238,Millenials
+Suriname,2009,female,55-74 years,6,29225,20.53,Suriname2009,"3,875,409,836",8238,Silent
+Suriname,2009,female,15-24 years,9,45374,19.84,Suriname2009,"3,875,409,836",8238,Millenials
+Suriname,2009,female,75+ years,1,6530,15.31,Suriname2009,"3,875,409,836",8238,Silent
+Suriname,2009,female,35-54 years,9,65668,13.71,Suriname2009,"3,875,409,836",8238,Boomers
+Suriname,2009,female,25-34 years,4,38634,10.35,Suriname2009,"3,875,409,836",8238,Generation X
+Suriname,2009,female,5-14 years,3,49092,6.11,Suriname2009,"3,875,409,836",8238,Generation Z
+Suriname,2009,male,5-14 years,1,52427,1.91,Suriname2009,"3,875,409,836",8238,Generation Z
+Suriname,2010,male,75+ years,5,4994,100.12,Suriname2010,"4,368,398,048",9176,Silent
+Suriname,2010,female,75+ years,4,6758,59.19,Suriname2010,"4,368,398,048",9176,Silent
+Suriname,2010,male,35-54 years,40,68450,58.44,Suriname2010,"4,368,398,048",9176,Generation X
+Suriname,2010,male,25-34 years,19,39368,48.26,Suriname2010,"4,368,398,048",9176,Generation X
+Suriname,2010,male,55-74 years,10,25526,39.18,Suriname2010,"4,368,398,048",9176,Silent
+Suriname,2010,male,15-24 years,18,48112,37.41,Suriname2010,"4,368,398,048",9176,Millenials
+Suriname,2010,female,15-24 years,10,45832,21.82,Suriname2010,"4,368,398,048",9176,Millenials
+Suriname,2010,female,35-54 years,14,67102,20.86,Suriname2010,"4,368,398,048",9176,Generation X
+Suriname,2010,female,25-34 years,7,38855,18.02,Suriname2010,"4,368,398,048",9176,Generation X
+Suriname,2010,female,55-74 years,3,30084,9.97,Suriname2010,"4,368,398,048",9176,Silent
+Suriname,2010,female,5-14 years,4,48769,8.2,Suriname2010,"4,368,398,048",9176,Generation Z
+Suriname,2010,male,5-14 years,2,52202,3.83,Suriname2010,"4,368,398,048",9176,Generation Z
+Suriname,2011,male,75+ years,5,5184,96.45,Suriname2011,"4,422,276,622",9184,Silent
+Suriname,2011,male,35-54 years,39,69491,56.12,Suriname2011,"4,422,276,622",9184,Generation X
+Suriname,2011,male,25-34 years,22,39793,55.29,Suriname2011,"4,422,276,622",9184,Millenials
+Suriname,2011,male,15-24 years,19,48619,39.08,Suriname2011,"4,422,276,622",9184,Millenials
+Suriname,2011,male,55-74 years,10,26237,38.11,Suriname2011,"4,422,276,622",9184,Boomers
+Suriname,2011,female,15-24 years,12,46282,25.93,Suriname2011,"4,422,276,622",9184,Millenials
+Suriname,2011,female,25-34 years,6,39239,15.29,Suriname2011,"4,422,276,622",9184,Millenials
+Suriname,2011,female,35-54 years,9,68303,13.18,Suriname2011,"4,422,276,622",9184,Generation X
+Suriname,2011,female,55-74 years,3,30801,9.74,Suriname2011,"4,422,276,622",9184,Boomers
+Suriname,2011,female,5-14 years,2,48495,4.12,Suriname2011,"4,422,276,622",9184,Generation Z
+Suriname,2011,female,75+ years,0,7088,0,Suriname2011,"4,422,276,622",9184,Silent
+Suriname,2011,male,5-14 years,0,51989,0,Suriname2011,"4,422,276,622",9184,Generation Z
+Suriname,2012,male,75+ years,10,5346,187.06,Suriname2012,"4,980,000,000",10227,Silent
+Suriname,2012,male,25-34 years,24,40412,59.39,Suriname2012,"4,980,000,000",10227,Millenials
+Suriname,2012,male,35-54 years,37,70333,52.61,Suriname2012,"4,980,000,000",10227,Generation X
+Suriname,2012,male,55-74 years,12,27044,44.37,Suriname2012,"4,980,000,000",10227,Boomers
+Suriname,2012,male,15-24 years,17,49082,34.64,Suriname2012,"4,980,000,000",10227,Millenials
+Suriname,2012,female,55-74 years,8,31542,25.36,Suriname2012,"4,980,000,000",10227,Boomers
+Suriname,2012,female,15-24 years,9,46713,19.27,Suriname2012,"4,980,000,000",10227,Millenials
+Suriname,2012,female,25-34 years,6,39751,15.09,Suriname2012,"4,980,000,000",10227,Millenials
+Suriname,2012,female,35-54 years,7,69327,10.1,Suriname2012,"4,980,000,000",10227,Generation X
+Suriname,2012,female,5-14 years,3,48244,6.22,Suriname2012,"4,980,000,000",10227,Generation Z
+Suriname,2012,female,75+ years,0,7412,0,Suriname2012,"4,980,000,000",10227,Silent
+Suriname,2012,male,5-14 years,0,51758,0,Suriname2012,"4,980,000,000",10227,Generation Z
+Suriname,2013,male,25-34 years,27,41155,65.61,Suriname2013,"5,145,757,576",10451,Millenials
+Suriname,2013,male,35-54 years,39,70987,54.94,Suriname2013,"5,145,757,576",10451,Generation X
+Suriname,2013,male,15-24 years,18,49480,36.38,Suriname2013,"5,145,757,576",10451,Millenials
+Suriname,2013,male,55-74 years,9,27992,32.15,Suriname2013,"5,145,757,576",10451,Boomers
+Suriname,2013,female,15-24 years,12,47090,25.48,Suriname2013,"5,145,757,576",10451,Millenials
+Suriname,2013,female,25-34 years,9,40347,22.31,Suriname2013,"5,145,757,576",10451,Millenials
+Suriname,2013,male,75+ years,1,5470,18.28,Suriname2013,"5,145,757,576",10451,Silent
+Suriname,2013,female,55-74 years,4,32385,12.35,Suriname2013,"5,145,757,576",10451,Boomers
+Suriname,2013,female,35-54 years,8,70174,11.4,Suriname2013,"5,145,757,576",10451,Generation X
+Suriname,2013,male,5-14 years,3,51531,5.82,Suriname2013,"5,145,757,576",10451,Generation Z
+Suriname,2013,female,5-14 years,1,48022,2.08,Suriname2013,"5,145,757,576",10451,Generation Z
+Suriname,2013,female,75+ years,0,7726,0,Suriname2013,"5,145,757,576",10451,Silent
+Suriname,2014,male,75+ years,5,5529,90.43,Suriname2014,"5,240,606,061",10530,Silent
+Suriname,2014,male,25-34 years,26,41917,62.03,Suriname2014,"5,240,606,061",10530,Millenials
+Suriname,2014,male,35-54 years,38,71494,53.15,Suriname2014,"5,240,606,061",10530,Generation X
+Suriname,2014,male,55-74 years,12,29170,41.14,Suriname2014,"5,240,606,061",10530,Boomers
+Suriname,2014,female,25-34 years,10,40945,24.42,Suriname2014,"5,240,606,061",10530,Millenials
+Suriname,2014,male,15-24 years,9,49798,18.07,Suriname2014,"5,240,606,061",10530,Millenials
+Suriname,2014,female,55-74 years,6,33447,17.94,Suriname2014,"5,240,606,061",10530,Boomers
+Suriname,2014,female,15-24 years,8,47355,16.89,Suriname2014,"5,240,606,061",10530,Millenials
+Suriname,2014,female,35-54 years,9,70884,12.7,Suriname2014,"5,240,606,061",10530,Generation X
+Suriname,2014,female,75+ years,1,8006,12.49,Suriname2014,"5,240,606,061",10530,Silent
+Suriname,2014,female,5-14 years,2,47832,4.18,Suriname2014,"5,240,606,061",10530,Generation Z
