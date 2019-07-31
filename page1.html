@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <head>
+    <div width="200" align="right">
+    <h1>
+      <a href="file:///Users/kcluo/Documents/Final%20Project/Final%20Pages/page2.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/right-button.png" width=40 height=40>
+      </a>
+    </h1>
+    </div>
+  <title>Introduction</title>  
+
+</head>
+
+<meta charset="utf-8">
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<svg id="my_dataviz"></svg> 
+
+
+<script>
+var width = 960;
+var height = 540; 
+var margin = {top: 30, right: 30, bottom: 30, left: 30};
+
+var svg = d3.select('body').append('svg')
+	.attr({
+  		width: width,
+  		height: height,
+	});
+
+//Background
+svg.append('svg:image')
+  .attr({
+      'xlink:href': 'https://i.redd.it/x15oeq0wwn201.png',  
+      x: 0,
+      y: 0,
+      width: width,
+      height: height,
+  });
+
+//Flag
+svg.append('svg:image')
+	.attr({
+  		'xlink:href': 'https://flagpedia.net/data/flags/w1160/sr.png',  
+  		x: 0,
+  		y: margin.bottom,
+  		width: width-margin.right,
+  		height: height-margin.top-margin.bottom,
+	});
+
+//Upper Text  
+  svg.append("text")
+    .attr("x", (width / 2))             
+    .attr("y", margin.top + 60)
+    .attr("text-anchor", "middle") 
+    .style("font-size", "40px") 
+    .text("Suicide in Suriname")
+
+//Lower Text
+svg.append("text")
+  .attr("x", (width / 2))             
+  .attr("y", margin.top + 440)
+  .attr("text-anchor", "middle") 
+  .style("font-size", "40px") 
+  .text("A Silent Epidemic")
+
+</script>
+ 
+</html>
