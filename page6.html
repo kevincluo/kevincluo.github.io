@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+ <head>
+  <div width="200" align="right">
+    <h1>
+      <a href="page5.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/left-button.png" width=40 height=40>
+      </a>
+      <a href="page7.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/right-button.png" width=40 height=40>
+      </a>
+    </h1>
+    </div>
+
+  <title>Correlation between GDP Per Capita and Suicide Rate</title>
+  
+  <h1>Correlation between GDP Per Capita and Suicide Rate</h1></head>
+ 
+<meta charset="utf-8">
+
+<style>
+          p {
+
+      margin-right: 100px;
+    }
+    body {
+      margin-left: 300px; }
+
+path { 
+    stroke: grey;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 2;
+    shape-rendering: crispEdges;
+}
+</style>
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<select id="selectButton1"></select>
+
+<div id="my_dataviz"></div>
+
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+<script>
+var margin = {top: 30, right: 30, bottom: 30, left: 60},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/all-country-year-suicide-gdp.csv", function(data) {
+
+    var allCountries = d3.map(data, function(d){return(d.country)}).keys()
+
+    d3.select("#selectButton1")
+      .selectAll('myOptions')
+      .data(allCountries)
+      .enter()
+      .append('option')
+      .text(function (d) { return d; }) 
+      .attr("value", function (d) { return d; }) 
+      .property("selected", function(d){ return d === "Suriname"; })
+
+
+    var myColor = d3.scaleOrdinal()
+      .domain(allCountries)
+      .range(d3.schemeSet2);
+
+    var x = d3.scaleLinear()
+      .domain(d3.extent(data, function(d) { return d.year; }))
+      .range([ 0, width ]);
+    svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x).ticks(20));
+
+    svg.append("text")  
+        .attr("y1", 0 - width/2)
+        .attr("x",0 - (height + margin.top + 20))
+        .style("stroke", "black")
+        .style("text-anchor", "middle")
+        .text("Year");
+
+    var y1 = d3.scaleLinear()
+      .domain([0, 20000])
+      .range([ height, 0 ]);
+    svg.append("g")
+      .style("stroke", "#377E3F")
+      .call(d3.axisLeft(y1));
+
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y1", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "-3em")
+        .style("text-anchor", "middle")
+        .style("stroke", "#377E3F")
+        .text("GDP Per Capita");   
+
+    var y2 = d3.scaleLinear()
+      .domain([0, 32])
+      .range([ height, 0 ]);
+    svg.append("g")
+      .attr("transform", "translate(" + width + " ,0)")
+      .style("stroke", "#B40A2D")
+      .call(d3.axisLeft(y2));
+
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y2", 0 - margin.right)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "56em")
+        .style("text-anchor", "middle")
+        .style("stroke", "#B40A2D")
+        .text("Suicide Per 100K Population");   
+
+    d3.select("#selectButton1")
+      .selectAll('myOptions')
+     	.data(allCountries)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; }) 
+      .attr("value", function (d) { return d; }) 
+
+    var line1 = svg
+      .append('g')
+      .append("path")
+      .style("stroke", "#377E3F")
+        .datum(data.filter(function(d){return d.country=="Suriname"}))
+        .attr("d", d3.line()
+          .x(function(d) { return x(d.year) })
+          .y(function(d) { return y1(d.gdp_per_capita) })
+        )
+
+    var line2 = svg
+      .append('g')
+      .append("path")
+      .style("stroke", "#B40A2D")
+        .datum(data.filter(function(d){return d.country=="Suriname"}))
+        .attr("d", d3.line()
+          .x(function(d) { return x(d.year) })
+          .y(function(d) { return y2(d.suicide_per_100k) })
+        )   
+
+    function update(selectedGroup) {
+      var dataFilter = data.filter(function(d){return d.country==selectedGroup})
+
+      line1
+          .datum(dataFilter)
+          .transition()
+          .duration(1000)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y1(d.gdp_per_capita) })
+          )
+          .attr("stroke", "#377E3F")
+          .style("stroke-width", 2)
+          .style("fill", "none")
+      
+      line2
+          .datum(dataFilter)
+          .transition()
+          .duration(1000)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y2(d.suicide_per_100k) })
+          )   
+          .attr("stroke", "#ECC81D")
+          .style("stroke-width", 2)
+          .style("fill", "none")       
+    }
+
+    d3.select("#selectButton1").on("change", function(d) {
+        var selectedOption = d3.select(this).property("value")
+        update(selectedOption)
+    })
+
+})
+
+
+</script>
+    <p>
+      One of the claims made by WHO is that there's a correlation between poverty and suicide rate. However, as we see in the line chart above, the GDP per capita in Suriname has been increasing just as the suicide rate has as well. This could be an indication that the overall wealth is increasing but there is higher disparity between economic classes. Alternatively, this could disprove the hypothesis that poverty leads to more suicide. As you adjust the country filter above, you can see that this pattern is quite consistent across countries in South America.
+    </p>

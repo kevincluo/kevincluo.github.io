@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <div width="200" align="right">
+    <h1>
+      <a href="page4p.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/left-button.png" width=40 height=40>
+      </a>
+      <a href="page6.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/right-button.png" width=40 height=40>
+      </a>
+    </h1>
+  </div>
+  <title>Suicide by Age Group by Year</title>
+  <h1>Suicide by Age Group</h1>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style>
+        p {
+
+      margin-right: 100px;
+    }
+    body {
+      margin-left: 300px; }
+  
+</style>
+  </head>
+
+<select id="selectButton1"></select>
+<div id="my_dataviz"></div>
+
+  <body>
+    <script>
+      const margin = { left: 50, right: 70, top: 20, bottom: 110 };
+
+      const width = 960;
+      const height = 500;
+
+      const xValue = d => d.age;
+      const xLabel = 'Age Group';
+      const yValue = d => d.suicide_per_100k;
+      const yLabel = 'Suicide / 100K';
+
+      var svg = d3.select('#my_dataviz')
+            .append("svg")
+            .attr('width', width)
+            .attr('height', height);
+      const innerWidth = width - margin.left - margin.right;
+      const innerHeight = height - margin.top - margin.bottom;
+
+      const g = svg.append('g')
+          .attr('transform', `translate(${margin.left},${margin.top})`);
+      const xAxisG = g.append('g')
+          .attr('transform', `translate(0, ${innerHeight})`);
+      const yAxisG = g.append('g');
+
+      svg.append('text')
+          .attr('class', 'axis-label')
+          .attr('x', innerWidth / 2)
+          .attr('y', 440)
+          .text(xLabel);
+
+    svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.right)
+            .attr("x",0 - (height / 2) + 30)
+            .attr("dy", "5em")
+            .style("text-anchor", "middle")
+            .text("Suicide Per 100K Population");  
+
+      const xScale = d3.scalePoint();
+      const yScale = d3.scaleLinear();
+
+      const xAxis = d3.axisBottom()
+        .scale(xScale)
+        .tickPadding(15)
+        .tickSize(-innerHeight);
+
+      const yTicks = 10;
+      const yAxis = d3.axisLeft()
+        .scale(yScale)
+        .ticks(yTicks)
+        .tickPadding(15)
+        .tickFormat(d3.format('.0s'))
+        .tickSize(-innerWidth);
+
+      const row = d => {
+        return {
+          age: d['age'],
+          suicide_per_100k: d['suicides_100k_pop'],
+          year: d['year']
+        };
+      };
+
+      d3.csv('https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/yearsagegroupdata.csv', row, data => {
+
+        data = data;
+        
+        var allYears = d3.map(data, function(d){return(d.year)}).keys()
+
+        d3.select("#selectButton1")
+          .selectAll('myOptions')
+          .data(allYears)
+          .enter()
+          .append('option')
+          .text(function (d) { return d; }) 
+          .attr("value", function (d) { return d; }) 
+
+        xScale
+          .domain(data.map(xValue))
+          .range([0, innerWidth]);
+
+        yScale
+          .domain([0,80])
+          .range([innerHeight, 0])
+          .nice(yTicks);
+
+        var dots = g
+          .selectAll('circle')
+          .data(data)
+          .enter()
+          .append('circle')
+          .filter(function(d){return d.year==allYears[0]})
+            .attr('cx', d => xScale(xValue(d)))
+            .attr('cy', d => yScale(yValue(d)))
+            .attr('fill', "#377E3F")
+            .attr('fill-opacity', 0.6)
+            .attr('r', 8); 
+        xAxisG.call(xAxis);
+        yAxisG.call(yAxis);
+
+        function update(selectedYear) {
+          var dataFilter = data.filter(function(d){return d.year==selectedYear})
+
+          g.selectAll("circle")
+            .data(dataFilter)
+            .transition()
+            .duration(1000)
+            
+              .attr('cx', d => xScale(xValue(d)))
+              .attr('cy', d => yScale(yValue(d)))
+              .attr('fill', "#377E3F")
+              .attr('fill-opacity', 0.6)
+              .attr('r', 8); 
+
+          xAxisG.call(xAxis);
+          yAxisG.call(yAxis);
+        }
+
+        d3.select("#selectButton1").on("change", function(d) {
+        var selectedOption = d3.select(this).property("value")
+        update(selectedOption)
+    })
+
+      });
+    </script>
+    <p>
+      In the scatterplot above, we normalize the number by suicide to per 100K population and compare the numbers across age groups. We can see that two groups have the highest rate: 25-34 and 75+. The 25-34 is consistently high starting in 2010. It's also important to note that the rate has been quite low (~10%) prior to 1998 but once the turn of the century came across, the rates overall started to increase. 2008, for example, is a year with particularly high rates across age groups. It's also worth pointing out that the rate is twice the average for the 75+ population in 2010.
+    </p>
+  </body>
+</html>

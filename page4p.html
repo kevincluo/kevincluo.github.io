@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+ <head>
+    <div width="200" align="right">
+    <h1>
+    	<a href="page3.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/left-button.png" width=40 height=40>
+      </a>
+      <a href="page5.html">
+            <img src="https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/right-button.png" width=40 height=40>
+      </a>
+    </h1>
+  </div>
+
+  <title>Distribution of Population/Suicide in Suriname in 2014</title>
+  <h1>Distribution of Population/Suicide in Suriname in 2014</h1>
+    <a href="page4p.html">
+            2014 Population Distribution
+      </a>
+    <p>
+    </p>
+    <a href="page4s.html">
+            2014 Suicide Distribution
+      </a> 
+       <p>
+    </p> 
+    <a href="page4b.html">
+            2014 Population-Suicide Distribution Comparison
+      </a> 
+  
+  <style>
+        p {
+
+      margin-right: 100px;
+    }
+    body {
+      margin-left: 300px; }
+  
+</style>
+  </head>
+
+
+<body>
+	<div id="dataviz2"></div>
+  <p>
+     We first examine the gender-age demographic make-up in Suriname in 2014 in this treemap. We can see that young people between age 15-54 of both genders make up the majority of the population. Where male and female are evenly split and 35-54 being the demographic with the most people.    
+  </p>
+  <p>
+    (Please click on 2014 Suicide Distribution above)
+  </p>
+</body>
+ 
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+
+<script>
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+  width = 445 - margin.left - margin.right,
+  height = 445 - margin.top - margin.bottom;
+
+
+// append the svg object to the body of the page
+var svg = d3.select("#dataviz2")
+.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+// Read data
+d3.csv('https://raw.githubusercontent.com/kevincluo/kevincluo.github.io/master/2014population.csv', function(data) {
+
+  // stratify the data: reformatting for d3.js
+  var root = d3.stratify()
+    .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
+    .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
+    (data);
+  root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
+
+  // Then d3.treemap computes the position of each element of the hierarchy
+  // The coordinates are added to the root object above
+  d3.treemap()
+    .size([width, height])
+    .padding(4)
+    (root)
+
+console.log(root.leaves())
+  // use this information to add rectangles:
+  svg
+    .selectAll("rect")
+    .data(root.leaves())
+    .enter()
+    .append("rect")
+      .attr('x', function (d) { return d.x0; })
+      .attr('y', function (d) { return d.y0; })
+      .attr('width', function (d) { return d.x1 - d.x0; })
+      .attr('height', function (d) { return d.y1 - d.y0; })
+      .style("stroke", "black")
+      .style("fill", "#377E3F");
+
+  // and to add the text labels
+  svg
+    .selectAll("text")
+    .data(root.leaves())
+    .enter()
+    .append("text")
+      .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
+      .attr("y", function(d){ return d.y0+12})    // +20 to adjust position (lower)
+      .text(function(d){ return d.data.name})
+      .attr("font-size", "12px")
+      .attr("fill", "#ECC81D")
+})
+</script>
